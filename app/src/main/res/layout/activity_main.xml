@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cometela.mesas.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puerta"
+        android:textSize="16sp"
+        android:id="@+id/door">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karla"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/door"
+        android:id="@+id/Karla"
+        android:layout_marginRight="8dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@+id/Karla"
+        android:layout_below="@+id/door"
+        android:text="Sebas"
+        android:id="@+id/Sebas">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Douglass"
+        android:layout_marginBottom="4dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/Doug">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Amigos no Drama"
+        android:layout_below="@id/Doug"
+        android:layout_alignParentRight="true">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hugo"
+        android:layout_toEndOf="@id/Sebas"
+        android:layout_toRightOf="@id/Sebas"
+        android:layout_below="@id/Karla">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedro"
+        android:layout_marginLeft="4dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/Pedro">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ariel"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/Pedro"
+        android:layout_toLeftOf="@id/Pedro"
+        android:id="@+id/borracho1">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Christian"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_below="@id/Pedro"
+        android:id="@+id/borracho2">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nestor"
+        android:layout_below="@id/borracho1"
+        android:layout_toLeftOf="@id/borracho2"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_centerInParent="true">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarah"
+        android:layout_toLeftOf="@+id/Obdu"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/Sarah">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obdulio"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/carlos"
+        android:id="@+id/Obdu"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:id="@+id/carlos">
+    </TextView>
+
+
+
+
+</RelativeLayout>
